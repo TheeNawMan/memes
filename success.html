@@ -35,22 +35,5 @@
     </style>
 </head>
 <body>
-    <img src="site.webp" alt="High Resolution Image">
-    <div class="input-container">
-        <input type="text" id="verifyInput" placeholder="Enter code here">
-        <button onclick="verify()">Verify</button>
-    </div>
-
-    <script>
-        function verify() {
-            const input = document.getElementById('verifyInput').value.trim();
-            const correctAnswer = atob('Q3liZXIgQ2h1cGFjYWJyYXM=');
-            if (input === correctAnswer) {
-                window.location.href = 'success.html';
-            } else {
-                window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
-            }
-        }
-    </script>
+    <img src="image.png" alt="High Resolution Image">
 </body>
-</html>
